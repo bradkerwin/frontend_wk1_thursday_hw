@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Please Provide the Necessary Information as Follows</title>
+    </head>
+
+        <body>
+            <h3>Please Enter the Information as Indicated</h3>
+                <form>
+                    <div>
+                        <label for="user-email">Enter your Email</label>
+                        <br>
+                        <input type="email" id="user-email" name="user-email"
+                        placeholder="Enter your email address" required>
+                        <button type="submit">Submit</button>
+                        <br><br>
+                    </div>
+
+                    <div>
+                        <label for="number">Enter a Number 1-99</label>
+                        <br>
+                        <input type="number" min="1" max="99"
+                        placeholder="Enter a Number" required>
+                        <button type="submit">Submit</button>
+                        <br><br>
+                    </div>
+
+                    <div>
+                        <label for="date">Enter Today's Date</label>
+                        <br>
+                        <input type="date" id="date" name="date"
+                        placeholder="Today's Date" required>
+                        <button type="submit">Submit</button>
+                        <br><br>
+                    </div>
+
+                    <div>
+                        <label for="range">Please Rate your Experience Here (1-10)</label>
+                        <br>
+                        <input type="range" min="1" max="10"
+                        placeholder="Your rating here">
+                        <br><br>
+                    </div>
+
+                    <div>
+                        <label for="color">What is your preferred color?</label>
+                        <input type="color" id="colorpref" name="colorpref"
+                        value="0000000"
+                        placeholder="Preferred Color">
+                        <br><br>
+                    </div>
+
+                </form>
+        </body>
+
+        <footer>
+            &copy; 2024 Brad Kerwin. All Rights Reserved
+        </footer>
+        
+</html>
